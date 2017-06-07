@@ -3,7 +3,7 @@ bash and r scripts to create a simple framework for data analysis, file transfor
 
 ## background
 
-I am comfortable working with shell scripting and r. Although I understand there are other frameworks in place, I like to get into the nitty and gritty to make custom and basic level work that achieves a similar outcome. Overall, I use bash for file management on a linux server, while calling r to do the heavy lifting in analysis. I also love doing the server side work on aws servers to make use of the larger storage capacities and higher compute power.
+I am comfortable working with shell scripting and r. Although I understand there are other frameworks in place, I like to get into the nitty and gritty to make custom and basic level work that achieves a similar outcome. Overall, I use bash for file management on a linux server, while calling r to do the heavy lifting in analysis (figure 1). I also love doing the server side work on aws servers to make use of the larger storage capacities and higher compute power.
 
 ## 1. case study: twitter mining and live analysis
 
