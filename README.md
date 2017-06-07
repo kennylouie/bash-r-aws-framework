@@ -3,7 +3,7 @@ bash and r scripts to create a simple framework for data analysis, file transfor
 
 ## background
 
-I am comfrotable working with shell scripting and r. Although I understand there are other frameworks in place, I like to get into the nitty and gritty to make custom and basic level work that achieves a similar outcome. Overall, I use bash for file management on a linux server, while calling r to do the heavy lifting in analysis. I also love doing the server side work on aws servers to make use of the larger storage capacities and higher compute power.
+I am comfortable working with shell scripting and r. Although I understand there are other frameworks in place, I like to get into the nitty and gritty to make custom and basic level work that achieves a similar outcome. Overall, I use bash for file management on a linux server, while calling r to do the heavy lifting in analysis. I also love doing the server side work on aws servers to make use of the larger storage capacities and higher compute power.
 
 ## 1. case study: twitter mining and live analysis
 
@@ -33,7 +33,7 @@ The instructions are also in the aws documentation.
 
 ```
 sudo apt-get update;
-sudo apt-get isntall tmux zsh wget vim htop;
+sudo apt-get install tmux zsh wget vim htop;
 ```
 
 For jupyter with the r-irkernel (for r), some other packges need to get r to work
@@ -129,3 +129,7 @@ devtools::install_github('IRkernel/IRkernel')
 IRkernel::installspec()
 ```
 You can find more info on the r-irkernel github page.
+
+# discussion
+
+Although quite primitive, with jupyter/aws/r/bash you can easily setup a server, access it through the browser, write bash and r code to mine/analyze/transform data/files. This can be a first step into the world of professional frameworks that do similar things with more features.
