@@ -41,7 +41,7 @@ sudo apt-get install tmux zsh wget vim htop;
 For jupyter with the r-irkernel (for r), some other packges need to get r to work
 
 ```
-sudo apt-get sudo apt-get install cc gfortran cmake unzip tcl tk build-essential checkinstall cvs subversion git-core mercurial libssl-dev libcurl4-openssl-dev libxml2-dev r-base vim zsh tmux htop
+sudo apt-get install cc gfortran cmake unzip tcl tk build-essential checkinstall cvs subversion git-core mercurial libssl-dev libcurl4-openssl-dev libxml2-dev r-base vim zsh tmux htop
 ```
 
 #### 5. install anaconda
